@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+/*font-family: 'Work Sans', sans-serif; */
+
+.calculator {
+  height: 969px;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Work Sans';
+}
+.calculator__wrapper {
+  background-color: #17171C;
+  max-width: 351px;
+  padding: 16px;
+  border-radius: 24px;
+  
+}
+.calculator__wrapper-out__wrapper-input {
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 56px;
+  height: 159;
+  background-color: #17171C
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /*убирает стрелки*/
+  -webkit-appearance: none;
+  margin: 0;
+}
+.calculator__out {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 25px;
+  height: 47px;
+  color: #000000;
+  background-color: rgba(221, 222, 233, 0.697);
+  margin-bottom: 16px;
+  border: 1px solid #4E505F;
+  border-radius: 24px;
+  
+}
+.calculator__wrapper-input {
+  max-height: 96px;
+  margin-bottom: 16px;
+  
+}
+.calculator__input-one {
+  
+  display: flex;
+  align-items: center;
+  text-align: right;
+  padding-right: 25px;
+  height: 46px;
+  border: 1px solid #4E505F;;
+  width: 306px;
+  color: #000000;
+  background-color: #D2D3DA;
+  margin-bottom: 2px;
+  border-radius: 24px;
+}
+.calculator__input-two {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  padding-right: 25px;
+  height: 46px;
+  border: 0.4px solid #4E505F;
+  border-radius: 24px;
+  width: 306px;
+  color: #000000;
+  background-color: #D2D3DA
+}
+
+.calculator__operation-button {
+  display: grid;
+  grid-template-columns: repeat(4, 72px);
+  gap: 16px;
+}
+
+button {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  padding: 0;
+  border: 0;
+  height: 72px;
+}
+
+.calculator__button-blue{
+  background: #4B5EFC;
+  border-radius: 24px
+}
+.calculator__button-grey{
+  background: #4E505F;
+  border-radius: 24px;
+}
+.clear {
+  background: #4E505F;
+  border-radius: 24px;
+}
+.calculator__equals {
+  background: #4B5EFC;
+  border-radius: 24px
+}

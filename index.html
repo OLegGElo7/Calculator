@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="calculator">
+      <div class="calculator__wrapper">
+        <div class="calculator__wrapper-out__wrapper-input">
+          <p class="calculator__out"></p>
+          <div class="calculator__wrapper-input">
+            <input type="number" class="calculator__input-one" />
+            <input type="number" class="calculator__input-two" />
+          </div>
+        </div>
+          <div class="calculator__operation-button">
+            <button class="calculator__button-blue"  onclick="operation='+'">+</button>
+            <button class="calculator__button-blue" onclick="operation='-'">-</button>
+            <button class="calculator__button-blue" onclick="operation='*'">*</button>
+            <button class="calculator__button-blue" onclick="operation='/'">/</button>
+            <button class="calculator__button-grey" onclick="operation='**'">**</button>
+            <button class="calculator__button-grey" onclick="operation='Math.sqrt()'">2√x</button>
+            <button class="clear">AC</button>
+            <button class="calculator__equals">=</button>
+          </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
